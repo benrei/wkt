@@ -21,8 +21,5 @@ const lineString = {
   coordinates: [125.6, 10.1, 10]
 };
 
-// console.log(parse(wktLineString))
-// console.log(stringify(parse(wktLineString)));
-console.log(JSON.stringify(parse(wktPolygon)))
-console.log(parse(wktPolygon))
-console.log(stringify(parse(wktPolygon)))
+console.log(parse(wktLineString))
+console.log(stringify(parse(wktLineString)))
