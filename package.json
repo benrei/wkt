@@ -1,0 +1,27 @@
+{
+  "name": "wkt",
+  "version": "0.1.0",
+  "description": "Parse WKT (Well-known text) into geoJSON or stringify geoJSON into WKT",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benrei/wkt.git"
+  },
+  "keywords": [
+    "WKT",
+    "GeoJSON",
+    "parse",
+    "stringify",
+    "convert",
+    "wellknown"
+  ],
+  "author": "Benjamin Reiersølmoen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benrei/wkt/issues"
+  },
+  "homepage": "https://github.com/benrei/wkt#readme"
+}
