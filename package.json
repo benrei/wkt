@@ -1,6 +1,6 @@
 {
   "name": "wkt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Parse WKT (Well-known text) into geoJSON or stringify geoJSON into WKT",
   "main": "index.js",
   "scripts": {

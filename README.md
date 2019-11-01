@@ -16,12 +16,13 @@ into GeoJSON
 const wkt = require('wkt');
 const { parse } = require('wkt');
 
+//  See return values in output section
 wkt.parse('POINT(1 2)');
 parse("POINT Z (58.51466818909509 8.629797415591964 61.77237)");
 parse("LINESTRING (30 10, 10 30, 40 40)");
 parse("POLYGON ((30 10, 40 40, 20 40, 10 20, 30 10))");
 ```
-#### Output
+#### Output from `parse()`
 ```
 { type: 'Point', coordinates: [ 1, 2 ] }
 { type: 'Point', coordinates: [ 58.51466818909509, 8.629797415591964, 61.77237 ] }
@@ -41,10 +42,11 @@ const geometry2 = {
   coordinates: [ [ 30, 10 ], [ 10, 30 ], [ 40, 40 ] ] 
 };
 
+//  See return values in output section
 stringify(geometry);
 stringify(geometry2);
 ```
-#### Output
+#### Output from `stringify()`
 ```
 "POINT Z (125.6 10.1 54.2)"
 "LINESTRING (30 10, 10 30, 40 40)"
