@@ -1,5 +1,6 @@
 # wkt
 [![NPM version](https://img.shields.io/npm/v/wkt.svg)](https://www.npmjs.com/package/wkt)
+[![Build Status](https://travis-ci.org/benrei/wkt.svg?branch=master)](https://travis-ci.org/benrei/wkt)
 
 - Parse WKT ([Well-known text](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry)) 
 into GeoJSON
