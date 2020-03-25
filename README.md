@@ -1,7 +1,8 @@
 # wkt
-[![NPM version](https://img.shields.io/npm/v/wkt.svg)](https://www.npmjs.com/package/wkt)
+[![npm version](https://badge.fury.io/js/wkt.svg)](https://badge.fury.io/js/wkt)
 [![Build Status](https://travis-ci.org/benrei/wkt.svg?branch=master)](https://travis-ci.org/benrei/wkt)
 
+This package lets you:
 - Parse WKT ([Well-known text](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry)) 
 into GeoJSON
 - Stringify [GeoJSON](https://geojson.org/) into WKT
@@ -13,6 +14,8 @@ into GeoJSON
 ## Usage
 
 ### Parse
+Turn [Well-known text](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry) string into GeoJSON
+
 ```js
 const wkt = require('wkt');
 const { parse } = require('wkt');
@@ -31,6 +34,8 @@ parse("POLYGON ((30 10, 40 40, 20 40, 10 20, 30 10))");
 { type: 'Polygon', coordinates: [[[30,10], [40,40], [20,40], [10,20], [30,10]]] }
 ```
 ### Stringify
+Turn [GeoJSON](https://geojson.org/) `geometry` object or Feature object into WKT (Well-known text)
+
 ```javascript
 const { stringify } = require('wkt');
 
