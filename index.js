@@ -271,7 +271,7 @@ const stringify = (geoJSON)=> {
       else return 'MULTILINESTRING (' + ringsWKT(gJ.coordinates) + ')';
 
     case 'MultiPolygon':
-      if(gJ.coordinates && gJ.coordinates[0] && gJ.coordinates[0][0] && gJ.coordinates[0][0] && gJ.coordinates[0][0][0].length === 3)
+      if(gJ.coordinates && gJ.coordinates[0] && gJ.coordinates[0][0] && gJ.coordinates[0][0][0] && gJ.coordinates[0][0][0].length === 3)
         return 'MULTIPOLYGON Z (' + multiRingsWKT(gJ.coordinates) + ')';
       else return 'MULTIPOLYGON (' + multiRingsWKT(gJ.coordinates) + ')';
 
